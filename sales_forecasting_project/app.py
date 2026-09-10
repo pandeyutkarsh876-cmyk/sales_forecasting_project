@@ -3,7 +3,10 @@ import pandas as pd
 
 st.title("Sales Forecasting Dashboard")
 
-df = pd.read_csv("../sales_data.csv")
+from pathlib import Path
+
+csv_path = Path(__file__).parent.parent / "sales_data.csv"
+df = pd.read_csv(csv_path)
 
 st.subheader("Sales Data")
 st.dataframe(df.head())
