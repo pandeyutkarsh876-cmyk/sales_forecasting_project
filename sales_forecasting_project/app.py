@@ -3,7 +3,10 @@ import pandas as pd
 
 st.set_page_config(page_title="Sales Forecasting", layout="wide")
 
-df = pd.read_csv("../data/sales_data.csv")
+from pathlib import Path
+
+csv_path = Path(__file__).parent / "data" / "sales_data.csv"
+df = pd.read_csv(csv_path)
 df["date"] = pd.to_datetime(df["date"])
 
 st.title("📊 Sales Forecasting Dashboard")
