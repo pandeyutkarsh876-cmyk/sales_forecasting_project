@@ -3,7 +3,7 @@ import pandas as pd
 
 st.title("Sales Forecasting Dashboard")
 
-df = pd.read_csv("sales_data.csv")
+df = pd.read_csv("../sales_data.csv")
 
 st.subheader("Sales Data")
 st.dataframe(df.head())
