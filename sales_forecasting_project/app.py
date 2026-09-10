@@ -5,7 +5,7 @@ st.title("Sales Forecasting Dashboard")
 
 from pathlib import Path
 
-csv_path = Path(__file__).parent.parent / "sales_data.csv"
+csv_path = Path(__file__).parent / "sales_data.csv"
 df = pd.read_csv(csv_path)
 
 st.subheader("Sales Data")
