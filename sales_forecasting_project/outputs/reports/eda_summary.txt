@@ -1,0 +1,19 @@
+SALES DATA — EDA SUMMARY
+========================================
+Date range: 2022-01-01 to 2024-12-31
+Total rows: 9,864
+Total revenue: $8,552,092.64
+Avg daily revenue: $7,803.00
+Daily revenue std dev: $1,362.25
+
+Revenue by product line:
+  Electronics     $3,504,995.70
+  Apparel         $2,909,448.99
+  Home & Garden   $2,137,647.95
+
+Revenue by region:
+  North           $3,211,478.24
+  West            $2,802,648.46
+  South           $2,537,965.94
+
+Avg revenue lift on promotion days (per row): $272.96
